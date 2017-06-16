@@ -1,0 +1,23 @@
+{
+  "name": "sqs-copy",
+  "version": "1.0.0",
+  "description": "Copy messages from AWS SQS queue to another AWS SQS queue",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "aws",
+    "sqs",
+    "queue",
+    "copy"
+  ],
+  "author": "Jose Miguel Bataller",
+  "license": "ISC",
+  "bin": {
+    "sqs-copy": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
