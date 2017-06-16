@@ -1,8 +1,7 @@
 # sqs-copy
 Copy messages from AWS SQS queue to another AWS SQS
 
-###### Messages are only removed from origin queue if they have been successfully
-sent to the destination queue.
+* Messages are only removed from origin queue if they have been successfully sent to the destination queue.*
 
 
 ## Install tool
