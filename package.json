@@ -18,6 +18,7 @@
     "sqs-copy": "./index.js"
   },
   "dependencies": {
+    "aws-sdk": "^2.71.0",
     "commander": "^2.9.0"
   }
 }
