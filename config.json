@@ -1,0 +1,5 @@
+{
+ "accessKeyId": "AWS PUBLIC KEY",
+ "secretAccessKey": "AWS PRIVATE KEY",
+ "region": "eu-west-1"
+}
