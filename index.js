@@ -12,6 +12,7 @@ var sqs = new AWS.SQS({apiVersion: '2012-11-05'});
 program
   .arguments('<origin> <destination>')
   .action(function(origin, destination) {
+
     console.log('origin: %s destination: %s', origin, destination);
     copyNextMessage(origin, destination);
   })

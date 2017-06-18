@@ -1,6 +1,6 @@
 {
   "name": "sqs-copy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Copy messages from AWS SQS queue to another AWS SQS queue",
   "main": "index.js",
   "scripts": {
