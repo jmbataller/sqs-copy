@@ -11,7 +11,7 @@ Copy messages from AWS SQS queue to another AWS SQS
 
 ## Run tool
 
-* Configure config.json with AWS credentials *
+Configure config.json with AWS credentials:
 
 ```
 {
