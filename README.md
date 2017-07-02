@@ -11,4 +11,14 @@ Copy messages from AWS SQS queue to another AWS SQS
 
 ## Run tool
 
+### Configure config.json with AWS credentials
+
+```
+{
+ "accessKeyId": "********",
+ "secretAccessKey": "*********",
+ "region": "eu-west-1"
+}
+```
+
 > sqs-copy <origin_queue_url> <destination_queue_url>
